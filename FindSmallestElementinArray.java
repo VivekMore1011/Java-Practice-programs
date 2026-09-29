@@ -3,8 +3,8 @@ public class FindSmallestElementinArray{
     static void Array(int arr[]){
         int minimum=arr[0];
         for(int i=0;i<arr.length;i++){
-            if(arr[i]<min){
-                min=arr[i];
+            if(arr[i]<minimum){
+                minimum=arr[i];
             }
         }
         System.out.println("The Minimum number is ="+minimum);
