@@ -1,0 +1,19 @@
+public class FindMissingNumber {
+
+    static void findMissing(int arr[],int n){
+        int expected=n*(n+1)/2;
+        int actual = 0;
+
+        for(int num:arr){
+            actual=actual+num;
+
+        }
+        int missing = expected-actual;
+        System.out.println("Missing Number "+missing);
+    }
+    public static void main(String args[]){
+        int arr[]={1,2,3,5};
+        int n=5;
+        findMissing(arr,n);
+    }
+}
