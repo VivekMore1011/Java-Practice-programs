@@ -12,8 +12,8 @@ public class FindMissingNumber {
         System.out.println("Missing Number "+missing);
     }
     public static void main(String args[]){
-        int arr[]={1,2,3,5};
-        int n=5;
+        int arr[]={1,2,3,5,6,7,8};
+        int n=8;
         findMissing(arr,n);
     }
 }

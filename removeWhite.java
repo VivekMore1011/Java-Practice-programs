@@ -15,6 +15,6 @@ class removeWhite{
 
 
         
-        removeSpaces("Vivek More");
+        removeSpaces("Vivek Tanaji More");
     }
 }
