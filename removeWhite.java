@@ -1,6 +1,6 @@
 class removeWhite{
 
-    static void removeSpaces(String str){
+    static void removeSpace(String str){
         String result=" ";
 
         for(int i=0;i<str.length();i++){
@@ -15,6 +15,6 @@ class removeWhite{
 
 
         
-        removeSpaces("Vivek Tanaji More");
+        removeSpace("Vivek Tanaji More");
     }
 }
