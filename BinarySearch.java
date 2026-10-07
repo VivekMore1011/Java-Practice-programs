@@ -1,6 +1,6 @@
 class BinarySearch {
 
-  static int count(int arr[],int target){
+  static int coun(int arr[],int target){
 
     int start=0;
     int end=arr.length-1;
@@ -28,6 +28,6 @@ class BinarySearch {
 
     int arr[]={10,20,30,40,50};
     int target=50;
-    System.out.println(count(arr,target));
+    System.out.println(coun(arr,target));
   }
 }
