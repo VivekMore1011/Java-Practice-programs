@@ -12,6 +12,6 @@ public class FindGCD{
 
     public static void main(String args[]){
 
-        System.out.println(gcd(12,16));
+        System.out.println(gcd(14,16));
     }
 }
